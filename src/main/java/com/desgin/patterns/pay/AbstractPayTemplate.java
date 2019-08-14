@@ -17,7 +17,7 @@ public class AbstractPayTemplate<T> {
      * @return
      */
     protected void sign(T t, String auth) {
-       System.out.println("统一的验证签名......");
+        System.out.println("统一的验证签名......");
         /**
          * <p>
          *     也可以由子类具体的支付放实现

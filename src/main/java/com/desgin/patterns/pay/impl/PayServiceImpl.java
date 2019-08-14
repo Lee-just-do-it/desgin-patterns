@@ -4,9 +4,9 @@ import com.desgin.patterns.pay.AbstractPayTemplate;
 import com.desgin.patterns.pay.PayService;
 
 /**
- * @author  木子Lee
+ * @author 木子Lee
  * @desc 具体的支付
- *       <p>使用可查看 README.md 文件 结合Route路由</p>
+ * <p>使用可查看 README.md 文件 结合Route路由</p>
  * @date 2019/8/13 23：23
  * @since 1.0
  */

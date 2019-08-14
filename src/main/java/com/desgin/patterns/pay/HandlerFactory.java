@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * @author  木子Lee
+ * @author 木子Lee
  * @desc 责任链工厂  【更改支付方式分支，可以考虑在责任链上加载组合模式】
  * @date 2019/8/13 23:11
  * @since 1.0
