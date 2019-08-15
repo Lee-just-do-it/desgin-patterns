@@ -6,7 +6,7 @@ package com.desgin.patterns.pay;
  * @date 2019/8/13 23:16
  * @since 1.0
  */
-public class AbstractPayTemplate<T> {
+public abstract class AbstractPayTemplate<T> {
 
     /**
      * 获取移动端参数验证签名 防篡改
@@ -42,8 +42,6 @@ public class AbstractPayTemplate<T> {
      * @param t
      * @return
      */
-    protected Boolean defray(T t) {
-        throw new IllegalArgumentException();
-    }
+    protected abstract Boolean defray(T t);
 
 }
