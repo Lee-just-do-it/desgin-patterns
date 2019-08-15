@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b674b4fd-f647-4d15-a080-e34cc02fe4c1" name="Default Changelist" comment="添加建造者模式">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jodd_jodd_core_3_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desgin-patterns.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/builds/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/factory/AbstractBuildFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/builds/factory/AbstractBuildFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/factory/Build.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/builds/factory/Build.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/factory/GeneralMuiltFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/builds/factory/GeneralMuiltFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/factory/GeneralSingleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/builds/factory/GeneralSingleFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/factory/HouseBuild.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/builds/factory/HouseBuild.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/factory/HouseBuildAbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/builds/factory/HouseBuildAbstractFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/factory/ShippingBuild.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/builds/factory/ShippingBuild.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/factory/ShippingBuildAbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/builds/factory/ShippingBuildAbstractFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/factory/readme/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/builds/factory/readme/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/pay/AbstractPayHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/example/AbstractPayHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/pay/AbstractPayTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/example/AbstractPayTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/pay/HandlerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/example/HandlerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/pay/PayService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/example/PayService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/pay/RouteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/example/RouteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/pay/impl/PayServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/example/pay/impl/PayServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/pay/readme/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/example/pay/readme/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/prototype/Prototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/builds/prototype/Prototype.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/prototype/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/builds/prototype/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/singleton/DoubleCheckSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/builds/singleton/DoubleCheckSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/singleton/HungrySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/builds/singleton/HungrySingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/singleton/LazySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/builds/singleton/LazySingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/singleton/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/builds/singleton/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/singleton/readme/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/builds/singleton/readme/README.md" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindBugs-IDEA-Workspace">
+    <toolWindowEditorPreview>false</toolWindowEditorPreview>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="/usr/local/maven-repository" />
+        <option name="mavenHome" value="/usr/local/maven-3.6.0" />
+        <option name="userSettingsFile" value="/usr/local/maven-3.6.0/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1PMsCVaOvcAHo1Vvypm9I4ZVJ60" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/desgin/patterns/pay/readme" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/desgin/patterns/pay" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/desgin/patterns/singleton/readme" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/desgin/patterns/factory/readme" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.BuilderPattern">
+    <configuration name="BuilderPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.desgin.patterns.builds.BuilderPattern" />
+      <module name="desgin-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.desgin.patterns.builds.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.desgin.patterns.builds.singleton in desgin-patterns" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="desgin-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.desgin.patterns.builds.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.desgin.patterns.builds.singleton" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DesginPatternsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="desgin-patterns" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.desgin.patterns.DesginPatternsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BuilderPattern" />
+        <item itemvalue="JUnit.com.desgin.patterns.builds.singleton in desgin-patterns" />
+        <item itemvalue="JUnit.com.desgin.patterns.builds.singleton in desgin-patterns" />
+        <item itemvalue="JUnit.com.desgin.patterns.builds.singleton in desgin-patterns" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b674b4fd-f647-4d15-a080-e34cc02fe4c1" name="Default Changelist" comment="" />
+      <created>1565695172988</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565695172988</updated>
+      <workItem from="1565695180878" duration="1311000" />
+      <workItem from="1565709832077" duration="624000" />
+      <workItem from="1565718347004" duration="99000" />
+      <workItem from="1565759532864" duration="2890000" />
+      <workItem from="1565763450996" duration="174000" />
+      <workItem from="1565763734680" duration="26000" />
+      <workItem from="1565791743839" duration="4912000" />
+      <workItem from="1565837207196" duration="12000" />
+      <workItem from="1565848107083" duration="681000" />
+      <workItem from="1565857615376" duration="203000" />
+      <workItem from="1565858002733" duration="12000" />
+      <workItem from="1565873907054" duration="2654000" />
+    </task>
+    <task id="LOCAL-00001" summary="添加READMD.md说明 关于编码规范、插件安装等说明">
+      <created>1565696542164</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1565696542164</updated>
+    </task>
+    <task id="LOCAL-00002" summary="添加单一职责说明">
+      <created>1565718373624</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565718373624</updated>
+    </task>
+    <task id="LOCAL-00003" summary="工厂模式-简单示例">
+      <created>1565761986274</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1565761986274</updated>
+    </task>
+    <task id="LOCAL-00004" summary="单例 + 责任链 模板等-简单示例">
+      <created>1565796434402</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1565796434402</updated>
+    </task>
+    <task id="LOCAL-00005" summary="单例 + 责任链 模板等-简单示例">
+      <created>1565796652817</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1565796652817</updated>
+    </task>
+    <task id="LOCAL-00006" summary="修改模板">
+      <created>1565848394996</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1565848394996</updated>
+    </task>
+    <task id="LOCAL-00007" summary="修改模板">
+      <created>1565848463337</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1565848463337</updated>
+    </task>
+    <task id="LOCAL-00008" summary="修改模板">
+      <created>1565848557935</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1565848557935</updated>
+    </task>
+    <task id="LOCAL-00009" summary="格式化代码">
+      <created>1565875538496</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1565875538496</updated>
+    </task>
+    <task id="LOCAL-00010" summary="格式化代码">
+      <created>1565875701874</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1565875701874</updated>
+    </task>
+    <task id="LOCAL-00011" summary="添加建造者模式">
+      <created>1565876338970</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1565876338970</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="date">
+                    <value>
+                      <list>
+                        <option value="1565710300078" />
+                        <option value="" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="user">
+                    <value>
+                      <list>
+                        <option value="me" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="me" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加READMD.md说明 关于编码规范、插件安装等说明" />
+    <MESSAGE value="添加单一职责说明" />
+    <MESSAGE value="工厂模式-简单示例" />
+    <MESSAGE value="单例 + 责任链 模板等-简单示例" />
+    <MESSAGE value="修改模板" />
+    <MESSAGE value="格式化代码" />
+    <MESSAGE value="添加建造者模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加建造者模式" />
+  </component>
+</project>
