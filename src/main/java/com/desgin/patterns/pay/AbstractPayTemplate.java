@@ -32,8 +32,20 @@ public abstract class AbstractPayTemplate<T> {
      * @return
      */
     protected Boolean pay(T t, String auth) {
-        sign(t, auth);
-        return defray(t);
+        if (idempotent(t)) {
+            sign(t, auth);
+            return defray(t);
+        }
+        return false;
+    }
+
+    /**
+     * 幂等性设计模板
+     *
+     * @return
+     */
+    protected Boolean idempotent(T t) {
+        throw new IllegalArgumentException();
     }
 
     /**
@@ -43,5 +55,6 @@ public abstract class AbstractPayTemplate<T> {
      * @return
      */
     protected abstract Boolean defray(T t);
+
 
 }

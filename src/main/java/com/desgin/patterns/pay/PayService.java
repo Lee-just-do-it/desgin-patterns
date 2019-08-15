@@ -10,6 +10,7 @@ package com.desgin.patterns.pay;
 public interface PayService<T> {
     /**
      * 支付接口
+     *
      * @param t
      */
     void pay(T t);
