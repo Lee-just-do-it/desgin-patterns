@@ -2,7 +2,7 @@ package com.desgin.patterns.mode.single;
 
 /**
  * @author 木子Lee
- * @desc 线程不安全的饿汉模式
+ * @desc 线程安全的饿汉模式
  * @date 2019/8/18 15：40
  * @since 1.0
  */
