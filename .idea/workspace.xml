@@ -2,20 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b674b4fd-f647-4d15-a080-e34cc02fe4c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/factory/method/AbstractCarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/factory/method/Bwm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/factory/method/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/factory/method/CarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/factory/relpace/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/factory/relpace/SingletonFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/prototype/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/single/expand/ExpandSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/build/AbstractBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/build/AbstractDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/build/AbstractPayTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/build/CB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/build/CBBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/build/CBDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/build/IC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/build/ICBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/build/ICDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/build/readme/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/build/Build.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/build/Build.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/factory/AbstractBuildFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/factory/AbstractBuildFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/factory/HouseBuildAbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/factory/HouseBuildAbstractFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/factory/ShippingBuildAbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/factory/ShippingBuildAbstractFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/single/READMD.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/single/readme/READMD.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/single/readme/READMD.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/single/readme/READMD.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,15 +73,15 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/desgin/patterns/uml" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/desgin/patterns/rule/lsp" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/single/readme" />
       <recent name="$PROJECT_DIR$/src/main/java/com/desgin/patterns" />
       <recent name="$PROJECT_DIR$/src/main/java/com/desgin/patterns/rule/open" />
       <recent name="$PROJECT_DIR$/src/main/java/com/desgin/patterns/rule/dip" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/desgin/patterns/rule/lsp" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/desgin/patterns/uml" />
       <recent name="$PROJECT_DIR$/src/main/java/com/desgin/patterns/rule/lsp" />
     </key>
   </component>
@@ -99,7 +97,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CBDirector">
+    <configuration name="CBDirector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.desgin.patterns.mode.build.CBDirector" />
+      <module name="desgin-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.desgin.patterns.mode.build.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ICDirector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.desgin.patterns.mode.build.ICDirector" />
+      <module name="desgin-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.desgin.patterns.mode.build.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DesginPatternsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="desgin-patterns" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.desgin.patterns.DesginPatternsApplication" />
@@ -107,6 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CBDirector" />
+        <item itemvalue="Application.ICDirector" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -137,6 +167,8 @@
       <workItem from="1566103033445" duration="7048000" />
       <workItem from="1566113667303" duration="2617000" />
       <workItem from="1566134452460" duration="9096000" />
+      <workItem from="1566143672075" duration="224000" />
+      <workItem from="1566146435416" duration="2141000" />
     </task>
     <task id="LOCAL-00001" summary="添加READMD.md说明 关于编码规范、插件安装等说明">
       <created>1565696542164</created>
@@ -236,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566134883824</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="创建者模式">
+      <created>1566143725170</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1566143725170</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,7 +356,8 @@
     <MESSAGE value="添加建造者模式" />
     <MESSAGE value="设计模式原则 + UML类图示例" />
     <MESSAGE value="单例 + 抽象工厂 + 模版 + 建造者  （模式）" />
-    <option name="LAST_COMMIT_MESSAGE" value="单例 + 抽象工厂 + 模版 + 建造者  （模式）" />
+    <MESSAGE value="创建者模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建者模式" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/desgin_patterns$Copy.ic" NAME="Copy Coverage Results" MODIFIED="1566143126418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
