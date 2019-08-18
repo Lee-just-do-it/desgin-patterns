@@ -2,7 +2,7 @@ package com.desgin.patterns.mode.factory;
 
 /**
  * @author 木子Lee
- * @desc 抽象工厂
+ * @desc 抽象工厂 （多个工厂）
  * 方便扩展，，建议使用接口的方式更好，，，
  * 此处建立抽象类是为了说明 抽象的概念
  * <p>
