@@ -1,0 +1,3 @@
+装饰者模式，可以动态的添加对象功能
+
+java本身的装饰者模式的使用，典型的io操作的 inputStream 和 outputstream

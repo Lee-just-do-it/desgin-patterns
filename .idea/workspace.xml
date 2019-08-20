@@ -2,11 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b674b4fd-f647-4d15-a080-e34cc02fe4c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/istrategy/BookStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/istrategy/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/istrategy/GameStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/istrategy/Istrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/future/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/future/FutureData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/future/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/decorator/Decorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/decorator/Decorator_ITCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/decorator/HeaderCorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/decorator/HttpHeaderCorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/decorator/ICorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/decorator/JSCorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/decorator/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/flyweight/example/EmployeeReportManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/flyweight/example/FinancialReportManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/flyweight/example/IReprotManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/flyweight/example/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/flyweight/example/ReportFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/flyweight/享元.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/flyweight/多租户的享元模式.asta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/single/SerSingleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/flyweight/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/flyweight/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/single/readme/READMD.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/single/readme/READMD.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +47,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -66,16 +82,16 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/proxy/readme" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/proxy" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/single/readme" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/desgin/patterns" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/desgin/patterns/rule/open" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/desgin/patterns/uml" />
       <recent name="$PROJECT_DIR$/src/main/java/com/desgin/patterns/rule/lsp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/flyweight" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/istrategy" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/proxy/readme" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/proxy" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/single/readme" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -90,13 +106,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Game_ITCase">
+  <component name="RunManager" selected="Application.Decorator_ITCase">
     <configuration name="CBDirector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.desgin.patterns.mode.build.CBDirector" />
       <module name="desgin-patterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.desgin.patterns.mode.build.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Decorator_ITCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.desgin.patterns.mode.decorator.Decorator_ITCase" />
+      <module name="desgin-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.desgin.patterns.mode.decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,6 +159,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReportFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.desgin.patterns.mode.flyweight.example.ReportFactory" />
+      <module name="desgin-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.desgin.patterns.mode.flyweight.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DesginPatternsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="desgin-patterns" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.desgin.patterns.DesginPatternsApplication" />
@@ -139,6 +181,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Decorator_ITCase" />
+        <item itemvalue="Application.ReportFactory" />
         <item itemvalue="Application.Game_ITCase" />
         <item itemvalue="Application.CBDirector" />
         <item itemvalue="Application.ICDirector" />
@@ -176,7 +220,9 @@
       <workItem from="1566134452460" duration="9096000" />
       <workItem from="1566143672075" duration="224000" />
       <workItem from="1566146435416" duration="2324000" />
-      <workItem from="1566220945409" duration="2572000" />
+      <workItem from="1566220945409" duration="3842000" />
+      <workItem from="1566268442743" duration="69000" />
+      <workItem from="1566305544494" duration="5366000" />
     </task>
     <task id="LOCAL-00001" summary="添加READMD.md说明 关于编码规范、插件安装等说明">
       <created>1565696542164</created>
@@ -297,7 +343,21 @@
       <option name="project" value="LOCAL" />
       <updated>1566223520626</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="策略模式">
+      <created>1566224427523</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1566224427524</updated>
+    </task>
+    <task id="LOCAL-00019" summary="池技术---享元模式">
+      <created>1566225404565</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1566225404565</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,7 +441,9 @@
     <MESSAGE value="创建者模式" />
     <MESSAGE value="建造者模式" />
     <MESSAGE value="代理模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="代理模式" />
+    <MESSAGE value="策略模式" />
+    <MESSAGE value="池技术---享元模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="池技术---享元模式" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/desgin_patterns$Copy.ic" NAME="Copy Coverage Results" MODIFIED="1566143126418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
