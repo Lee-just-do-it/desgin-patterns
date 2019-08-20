@@ -2,27 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b674b4fd-f647-4d15-a080-e34cc02fe4c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/future/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/future/FutureData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/future/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/decorator/Decorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/decorator/Decorator_ITCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/decorator/HeaderCorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/decorator/HttpHeaderCorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/decorator/ICorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/decorator/JSCorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/decorator/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/flyweight/example/EmployeeReportManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/flyweight/example/FinancialReportManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/flyweight/example/IReprotManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/flyweight/example/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/flyweight/example/ReportFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/flyweight/享元.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/flyweight/多租户的享元模式.asta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/single/SerSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_28_0_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/chain/AbstarctPayHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/chain/HandlerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/chain/Route.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/chain/Test2Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/chain/TestHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/flyweight/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/flyweight/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/single/readme/READMD.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/single/readme/READMD.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desgin-patterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/desgin-patterns.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/desgin/patterns/mode/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +43,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -222,7 +218,8 @@
       <workItem from="1566146435416" duration="2324000" />
       <workItem from="1566220945409" duration="3842000" />
       <workItem from="1566268442743" duration="69000" />
-      <workItem from="1566305544494" duration="5366000" />
+      <workItem from="1566305544494" duration="5654000" />
+      <workItem from="1566312555103" duration="1389000" />
     </task>
     <task id="LOCAL-00001" summary="添加READMD.md说明 关于编码规范、插件安装等说明">
       <created>1565696542164</created>
@@ -357,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566225404565</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="享元模式">
+      <created>1566311458146</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1566311458146</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,7 +447,8 @@
     <MESSAGE value="代理模式" />
     <MESSAGE value="策略模式" />
     <MESSAGE value="池技术---享元模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="池技术---享元模式" />
+    <MESSAGE value="享元模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="享元模式" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/desgin_patterns$Copy.ic" NAME="Copy Coverage Results" MODIFIED="1566143126418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
